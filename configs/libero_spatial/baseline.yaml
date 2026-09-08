@@ -1,0 +1,8 @@
+# LIBERO-Spatial: the policy alone, with no value guidance.
+# Identical to q_planning_offline.yaml except for `planner.type`.
+extends: q_planning_offline.yaml
+
+run_name: libero_spatial_baseline
+
+planner:
+  type: none
